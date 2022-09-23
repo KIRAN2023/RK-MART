@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RK MARTS | Menu</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <nav class="menu">
+
+        <h1>RK <span> MART </span></h1>
+
+        <ul>
+            <li> <i class="fa-solid fa-house"></i>Home</li>
+            <li><i class="fa-solid fa-basket-shopping"></i>Product
+
+                <div class="submenu">
+                    <ul>
+                        <li><i class="fa-sharp fa-solid fa-laptop-file"></i>Electronics <i
+                                class="fas fa-caret-right"></i>
+
+                            <div class="submenu2">
+                                <ul>
+                                    <li> <i class="fa-solid fa-mobile-screen-button"></i>Mobile Phone</li>
+                                    <li><i class="fa-solid fa-tablet"></i>Tablet</li>
+                                    <li><i class="fa-solid fa-laptop"></i>Laptops</li>
+                                    <li><i class="fa-solid fa-desktop"></i>Desktop</li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li><i class="fa-sharp fa-solid fa-door-open"></i>Household Items <i
+                                class="fas fa-caret-right"></i>
+
+                            <div class="submenu2">
+                                <ul>
+                                    <li><i class="fa-solid fa-couch"></i>Furniture</li>
+                                    <li><i class="fa-solid fa-mug-hot"></i>Kitchen Utensils</li>
+                                    <li><i class="fa-sharp fa-solid fa-plate-wheat"></i>Eating Utensils</li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li><i class="fa-solid fa-shirt"></i>Lifestyle<i class="fas fa-caret-right"></i>
+
+                            <div class="submenu2">
+                                <ul>
+                                    <li><i class="fa-solid fa-shirt"></i>Mens</li>
+                                    <li><i class="fa-solid fa-bag-shopping"></i>Womens</li>
+                                    <li><i class="fa-solid fa-shirt"></i>Kids</li>
+                                </ul>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </li>
+            <li><i class="fa-solid fa-address-book"></i>Contact</li>
+            <li><i class="fa-solid fa-book"></i>About</li>
+            <i class="fa-sharp fa-solid fa-magnifying-glass" id="searchicon"></i><input type="search" name="search"
+                id="search" placeholder="Search Here">
+            <button id="btn"><i class="fa-solid fa-users"></i> Create Account </button>
+            <button id="btn"> <i class="fa-solid fa-user"></i> Login </button>
+        </ul>
+
+    </nav>
+
+
+    <section>
+        <div class="grid grid-three-columns">
+            <aside>
+                <h3> <b> Category </b></h3>
+                <small> <b> All </b> </small>
+                <div class="category">
+                    <ul>
+                        <li>Beverges</li>
+                        <li>Fresh Items</li>
+                        <li>Electronics</li>
+                        <li>Household Items</li>
+                        <li>Lifestyle</li>
+                        <li>Accessories</li>
+                    </ul>
+                </div>
+                <div class="beverges">
+                    <label> <b> Beverges </b></label>
+                    <select name="" id="">
+                        <option value="none" selected disabled hidden>Choose Beverges</option>
+                        <option value="Soft Drinks">Soft Drinks</option>
+                        <option value="Energy Drinks">Enegery Drinks</option>
+                        <option value="Mocktails">Mocktails</option>
+                        <option value="Pepsi">Pepsi</option>
+                        <option value="Juices">Juices</option>
+                    </select>
+                </div>
+
+                <div class="price">
+                    <label for="price"> <b> Price </b></label>
+                    <input type="range" name="price" id="filter" min="0" max="100">
+                </div>
+            </aside>
+            <div class="cards">
+                <div class="card-image">
+                    <figure>
+                        <img src="images/beverges.jpg" alt="Beverges" title="Beverges">
+                        <figcaption>
+                            <b> All Types of Drinks </b>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="card-data">
+                    <p>All types of Juices Available. Common types of drinks include plain drinking water, milk, juice,
+                        smoothies and soft drinks.</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-image">
+                    <figure>
+                        <img src="images/freshItems.jpg" alt="Fresh Items" title="Fresh Items">
+                        <figcaption>
+                            <b> Vegetables and Fruits </b>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="card-data">
+                    <p>Fresh various types of Vegetable and Fruits has not been preserved and has not spoiled yet. It
+                        includes purchasing in kilograms</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-image">
+                    <figure>
+                        <img src="images/electronics.jpg" alt="Electronics" title="Electronics">
+                        <figcaption>
+                            <b> Mobile Phone, Laptop, Tablet, Desktop</b>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="card-data">
+                    <p>Popular brands on all types Mobile Phones, Laptops, Tablets, Desktop and various Oled monitors etc. </p>
+                </div>
+            </div>
+            <div class="video">
+                <video width="250px" height="250px" controls muted autoplay title="Unmute to Hear Audio">
+                    <source src="videos/ad.mp4" type="video/mp4"> 
+                </video>
+            </div>
+            <div class="cards">
+                <div class="card-image">
+                    <figure>
+                        <img src="images/household.jpg" alt="Household" title="House Hold Items">
+                        <figcaption>
+                          <b> Household and KitchenWare Items </b>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="card-data">
+                    <p>Furniture, Kitchen and Eating Utensils at various shapes and different sizes. It includes all types of vessels and more furniture brands</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-image">
+                    <figure>
+                        <img src="images/lifestyle.jpg" alt="Lifestyle" title="Lifestyle">
+                        <figcaption>
+                           <b> Clothes and Footwear </b> 
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="card-data">
+                    <p>Men, Women, kids clothing and winter, summer wears. Shoes of various brands, slippers etc.</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-image">
+                    <figure>
+                        <img src="images/accessories.jpg" alt="Accessories" title="Accessories">
+                        <figcaption>
+                            <b> Electronics Accessories </b>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="card-data">
+                    <p>Electornics related accessories like keyboard, mouse, pendrives, memory cards, hard disk, SSD etc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h3 title="Animation in CSS3">IMPORTANT FEATURES</h3>
+
+        <div class="grid grid-three-columns features">
+            <div class="svg">
+                <h4 title="Text Shadow">SVG</h4>
+                <svg width="100%" height="250px" style="border: 2px solid red;">
+                    <circle cx="180" cy="125" r="80" stroke="black" stroke-width="4" fill="#7d9dd4" title="SVG">
+                    </circle>
+                </svg>
+            </div>
+            <div class="canvas">
+                <h4 title="Text Shadow">CANVAS</h4>
+                <canvas width="350px" height="250px" style="border: 2px solid #FF0000" id="canvas"
+                    title="Canvas"></canvas>
+            </div>
+            <div class="canvas">
+                <h4 title="Text Shadow">CANVAS</h4>
+                <canvas width="350px" height="250px" id="CanvasRectangle" title="Canvas Rectangle"></canvas>
+            </div>
+            <div class="">
+                <h4 title="Text Shadow">Multiple Columns</h4>
+
+                <div class="multiplecolumns" title="Multiple Columns">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque excepturi quae et
+                        dignissimos quisquam. Recusandae modi iste optio? Rem debitis, magnam adipisci molestias
+                        mollitia nisi consequatur deserunt error, earum, necessitatibus odit quod! Dolore, dolor
+                        corrupti ex magni quod alias eius officia praesentium dicta voluptatem, illum aut suscipit
+                        aperiam rerum laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, vel!
+                    </p>
+                </div>
+            </div>
+
+            <div class="box" title="rotate">
+                <div class="boxes" id="rotate">
+                    <p> <b> Rotate 45deg </b></p>
+                </div>
+
+            </div>
+            <div class="box" title="rotate">
+                <div class="boxes" id="rotateX">
+                    <p> <b> RotateX 90deg </b></p>
+                </div>
+            </div>
+            <div class="box" title="rotate">
+                <div class="boxes" id="rotateY">
+                    <p> <b> RotateY 45deg </b></p>
+                </div>
+            </div>
+            <div class="box" title="scale">
+                <div class="boxes" id="scale">
+                    <p> <b> This div is 2times its original width and height </b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-two-columns">
+            <div class="box" title="Skew">
+                <div class="boxes" id="skew"> <p><b>Skew 45deg Both Sides</b></p> </div>
+            </div>
+            <div class="box" title="Translate">
+                <div class="boxes" id="translate"><p><b>Translate 40px</b></p></div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <script>
+        const data = document.getElementById("canvas");
+        const value = data.getContext("2d");
+        value.moveTo(0, 0);
+        value.lineTo(350, 250);
+        value.stroke();
+
+        const rectangle = document.getElementById("CanvasRectangle");
+        const datas = rectangle.getContext("2d");
+        datas.rect(0, 0, 500, 300);
+        datas.fillStyle = '#FF0000';
+        datas.fill();
+        datas.lineWidth = 2;
+        datas.strokeStyle = 'black';
+        datas.stroke();
+
+    </script>
+
+</body>
+
+</html>
