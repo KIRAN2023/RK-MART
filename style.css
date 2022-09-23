@@ -293,7 +293,6 @@ h4{
 .box #skew:hover{
     transform: skew(45deg);
 }
-
 .box #translate:hover{
     transform: translate(4rem);
 }
